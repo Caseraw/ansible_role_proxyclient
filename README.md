@@ -2,6 +2,8 @@
 
 Ensure access to environment proxy values.
 
+[![Build Status](https://travis-ci.org/Caseraw/ansible_role_proxyclient.svg?branch=master)](https://travis-ci.org/Caseraw/ansible_role_proxyclient) [<img src="https://img.shields.io/ansible/role/46851">](https://galaxy.ansible.com/caseraw/ansible_role_proxyclient) [<img src="https://img.shields.io/ansible/role/d/46851">](https://galaxy.ansible.com/caseraw/ansible_role_proxyclient) [<img src="https://img.shields.io/ansible/quality/46851">](https://galaxy.ansible.com/caseraw/ansible_role_proxyclient)
+
 - [Ansible role proxy client](#ansible-role-proxy-client)
   - [License](#license)
   - [Author Information](#author-information)
