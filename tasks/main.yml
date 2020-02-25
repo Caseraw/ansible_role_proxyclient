@@ -1,0 +1,10 @@
+---
+- name: Ensure proxyclient environment file is deployed
+  template:
+    src: proxyclient.sh.j2
+    dest: /etc/profile.d/proxyclient.sh
+    owner: root
+    group: root
+    mode: '0644'
+
+...

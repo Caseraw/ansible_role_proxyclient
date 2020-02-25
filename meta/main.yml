@@ -1,0 +1,27 @@
+---
+galaxy_info:
+  author: Kasra Amirsarvari
+  description: Ensure access to environment proxy values.
+  company: N/A
+  license: license (BSD, MIT)
+  min_ansible_version: 2.5
+  platforms:
+    - name: Fedora
+      versions:
+        - 28
+        - 29
+        - 30
+        - 31
+    - name: EL
+      versions:
+        - 7
+        - 8
+  galaxy_tags:
+    - proxy
+    - environment
+    - default
+    - global
+
+dependencies: []
+
+...

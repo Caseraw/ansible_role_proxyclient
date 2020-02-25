@@ -1,0 +1,17 @@
+# {{ ansible_managed }}
+
+{% if role_proxyclient_environment_variable_list | length > 1 %}
+function setproxy(){
+{% for env_var in role_proxyclient_environment_variable_list %}
+    export {{ env_var.protocol | lower }}="{{ env_var.uri }}:{{ env_var.port }}"
+    export {{ env_var.protocol | upper }}="{{ env_var.uri }}:{{ env_var.port }}"
+{% endfor %}
+}
+
+function unsetproxy(){
+{% for env_var in role_proxyclient_environment_variable_list %}
+    unset {{ env_var.protocol | lower }}
+    unset {{ env_var.protocol | upper }}
+{% endfor %}
+}
+{% endif %}

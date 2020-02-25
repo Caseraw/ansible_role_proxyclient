@@ -1,0 +1,18 @@
+---
+### List of proxy environment variables.
+
+role_proxyclient_environment_variable_list:
+  - protocol: http_proxy
+    uri: http://proxy.example.com
+    port: '8080'
+  - protocol: https_proxy
+    uri: http://proxy.example.com
+    port: '8080'
+  - protocol: ftp_proxy
+    uri: http://proxy.example.com
+    port: '8080'
+  - protocol: no_proxy
+    uri: http://something.example.com
+    port: '8080'
+
+...

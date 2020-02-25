@@ -1,0 +1,24 @@
+---
+### List of proxy environment variables.
+
+role_proxyclient_environment_variable_list: []
+
+## Example
+# role_proxyclient_environment_variable_list:
+#   - protocol: http_proxy
+#     uri: http://proxy.example.com
+#     port: '8080'
+#   - protocol: https_proxy
+#     uri: http://proxy.example.com
+#     port: '8080'
+#   - protocol: ftp_proxy
+#     uri: http://proxy.example.com
+#     port: '8080'
+#   - protocol: no_proxy
+#     uri: http://something.example.com
+#     port: '8080'
+
+## More examples at: 'molecule/default/vars/main.yml'
+## This file is used to verify tests with and contains some possible variants.
+
+...
